@@ -14,7 +14,7 @@ int main() {
 
 
     // should throw an error because a transaction is not in progress
-    DBobj.put("A", 5);
+ //   DBobj.put("A", 5);
 
 
     // starts a new transaction
@@ -42,10 +42,10 @@ int main() {
     cout << "A: " << DBobj.get("A") << endl;
 
     // throws an error, because there is no open transaction
-    DBobj.commit();
+   // DBobj.commit();
 
     // throws an error because there is no ongoing transaction
-    DBobj.rollback();
+    // DBobj.rollback();
 
     // should return null because B does not exist in the database
     DBobj.get("B");
