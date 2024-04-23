@@ -1,0 +1,7 @@
+This code is written in C++ using the VS Code IDE.
+
+To run this code, open the "InMemoryDB.cpp" and "main.cpp" files in VS Code. Open the terminal and ensure you have a g++ version. You can check this using this command "g++ --version". Now, compile the testing cpp file. In this case, I am testing main.cpp, as provided in the assignment. To compile use this command "g++ main.cpp". This will create an executable file called "a.out" in the parent directory. Now you can run the program using "./a.out". This will run the main.cpp file.  
+
+Some things to note: when running on VS Code, depending on the version of C++ you have, it may give 4 warnings due to version control. This can be ignored, it does not effect the output of the code. Additionally, I commented out lines 17, 45, and 48 as they are errors when they run - as mentioned in the assignment. 
+
+In terms of modifiying this assignment, adding more functions could help make it an assignment. If not complete and working code, at least pseudo-code or an algorithm for a function to delete rows, for example, would allow for a more rounded assignment. Adding more functions would help the class feel more complete and would still be straighforward for students to implement and add functionaloty to the assignment. 
